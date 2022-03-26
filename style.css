@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Fira+Sans:wght@500&family=Montserrat:wght@100;300;400;500;600;700&family=Mulish:wght@300;400&family=Supermercado+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: #f86b6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  padding: 0 5px;
+}
+
+.nav-links {
+  display: flex;
+  background: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  border-radius: 10px 5px;
+  padding: 9px 35px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4d4c4c;
+  transition: 0.3s;
+  transform: skew(-15deg);
+}
+
+.nav-links .noob {
+  display: block;
+  transform: skew(15deg);
+}
+
+.nav-links:hover {
+  background: #a63838;
+  color: #fff;
+  box-shadow: none;
+}
